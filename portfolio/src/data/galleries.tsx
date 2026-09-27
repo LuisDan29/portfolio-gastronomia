@@ -31,7 +31,8 @@ import quente7 from "../assets/images/cozinha-quente/IMG-7.jpg";
 export const galleries = [
   {
     id: 1,
-    title: "PANIFICACÃO",
+    title: "PANIFICAÇÃO",
+    description: "Produção de alimentos fermentados e assados, servindo produtos como pães artesanais, torradas, brioches, croissants e massas de pizza.",
     images: [
       { id: 1, src: panificacao1 },
       { id: 2, src: panificacao2 },
@@ -44,6 +45,7 @@ export const galleries = [
   {
     id: 2,
     title: "CONFEITARIA",
+    description: "Produção de sobremesas e doces refinados, servindo criações como bolos, tortas, bombons, mousses, petit fours e compotas.",
     images: [
       { id: 1, src: confeitaria1 },
       { id: 2, src: confeitaria2 },
@@ -56,6 +58,7 @@ export const galleries = [
   {
     id: 3,
     title: "COZINHA FRIA",
+    description: "Preparo de alimentos servidos em temperaturas baixas ou ambientes, como saladas, carpaccios, tartares, sanduíches e entradas frias.",
     images: [
       { id: 1, src: fria1 },
       { id: 2, src: fria2 },
@@ -69,6 +72,7 @@ export const galleries = [
   {
     id: 4,
     title: "COZINHA QUENTE",
+    description: "Preparo de alimentos que utilizam calor para sua cocção, servindo pratos como grelhados, assados, ensopados, massas e sopas.",
     images: [
       { id: 1, src: quente1 },
       { id: 2, src: quente2 },
@@ -78,5 +82,5 @@ export const galleries = [
       { id: 6, src: quente6 },
       { id: 7, src: quente7 }
     ]
-  },
+  }
 ];

@@ -8,6 +8,7 @@ interface GalleryImages {
 interface Gallery {
   id: number;
   title: string;
+  description: string;
   images: GalleryImages[];
 }
 
@@ -17,13 +18,14 @@ interface ImageGalleryProps {
 
 function ImageGallery({ gallery }: ImageGalleryProps) {
   return (
-    <section className="gallery-section py-5">
+    <section className="gallery-section px-0 px-md-5 py-5">
       <div className="row">
-        <div className="col pt-5 ps-5">
+        <div className="col-12 col-md-6 pt-0">
           <p className="gallery-title fs-3 text-primary">{gallery.title}</p>
+          <p className="gallery-text fs-5 text-tertiary">{gallery.description}</p>
         </div>
       </div>
-      <div className="gallery px-5 py-0">
+      <div className="gallery px-2">
         {gallery.images.map((image) => (
           <div className="gallery-item" key={image.id}>
             <img src={image.src} />

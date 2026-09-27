@@ -3,8 +3,8 @@
 [data-bs-theme="dark"] {
   --bs-primary: black !important;
   --bs-primary-rgb: 0, 0, 0 !important;
-  --bs-secondary: #dfdfdf !important;
-  --bs-secondary-rgb: 223, 223, 223 !important;
+  --bs-secondary: #d6d6d6 !important;
+  --bs-secondary-rgb: 214, 214, 214 !important;
 }
 
 

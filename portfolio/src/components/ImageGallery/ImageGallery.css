@@ -9,21 +9,39 @@
   font-family: 'FreeSansBold', sans-serif;
   font-weight: bold;
   margin-left: 10px;
+  margin-bottom: 8px;
+}
+
+.gallery-text {
+  margin-left: 10px;
+  line-height: 120%;
+  margin-bottom: 34px;
 }
 
 .gallery {
-  columns: 4 250px;
-  column-gap: 16px;
+  columns: 4;
+  column-gap: 8px;
 }
 
 .gallery-item {
   break-inside: avoid;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   overflow: hidden;
+  border-radius: 8px
 }
 
 .gallery-item img {
   width: 100%;
   height: auto;
   display: block;
+}
+
+@media (max-width: 767px) {
+  .gallery-section {
+    padding: auto 8px;  
+  }
+  
+  .gallery {
+    columns: 2;
+  }
 }
