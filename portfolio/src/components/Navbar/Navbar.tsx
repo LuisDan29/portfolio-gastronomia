@@ -21,7 +21,7 @@ function Navbar() {
               <Link to="#gallery-section" className="nav-link text-primary">Galeria</Link>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-link text-primary">Contato</Link>
+              <Link to="#footer-section" className="nav-link text-primary">Contato</Link>
             </li>
           </ul>
         </div>
