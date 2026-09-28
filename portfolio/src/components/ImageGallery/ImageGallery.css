@@ -24,10 +24,27 @@
 }
 
 .gallery-item {
+  position: relative;
   break-inside: avoid;
   margin-bottom: 8px;
   overflow: hidden;
   border-radius: 8px
+}
+
+.gallery-item p {
+  background-color: white; 
+  max-width: 85%;
+  padding: 8px 13px;
+  border-radius: 0 0 8px 0;
+  position: absolute;
+  overflow-wrap: break-word;
+  line-height: 120%;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover p {
+  transform: translateY(0%);
 }
 
 .gallery-item img {

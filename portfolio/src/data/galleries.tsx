@@ -34,12 +34,12 @@ export const galleries = [
     title: "PANIFICAÇÃO",
     description: "Produção de alimentos fermentados e assados, servindo produtos como pães artesanais, torradas, brioches, croissants e massas de pizza.",
     images: [
-      { id: 1, src: panificacao1 },
-      { id: 2, src: panificacao2 },
-      { id: 3, src: panificacao3 },
-      { id: 4, src: panificacao4 },
-      { id: 5, src: panificacao5 },
-      { id: 6, src: panificacao6 }
+      { id: 1, src: panificacao1, alt: "Pão com Gotas de Chocolate" },
+      { id: 2, src: panificacao2, alt: "Chipa" },
+      { id: 3, src: panificacao3, alt: "Pão de Cachorro Quente" },
+      { id: 4, src: panificacao4, alt: "Pão Challa" },
+      { id: 5, src: panificacao5, alt: "Foccacia Pugliese" },
+      { id: 6, src: panificacao6, alt: "Pão Brioche" }
     ]
   },
   {
@@ -47,12 +47,12 @@ export const galleries = [
     title: "CONFEITARIA",
     description: "Produção de sobremesas e doces refinados, servindo criações como bolos, tortas, bombons, mousses, petit fours e compotas.",
     images: [
-      { id: 1, src: confeitaria1 },
-      { id: 2, src: confeitaria2 },
-      { id: 3, src: confeitaria3 },
-      { id: 4, src: confeitaria4 },
-      { id: 5, src: confeitaria5 },
-      { id: 6, src: confeitaria6 }
+      { id: 1, src: confeitaria1, alt: "Churros com Doce de Leite e Chocolate" },
+      { id: 2, src: confeitaria2, alt: "Tiramisu com Brownie de Café" },
+      { id: 3, src: confeitaria3, alt: "Cuca de Banana" },
+      { id: 4, src: confeitaria4, alt: "Torta de Limão" },
+      { id: 5, src: confeitaria5, alt: "Bombom de Caramelo" },
+      { id: 6, src: confeitaria6, alt: "Rocambole de Brigadeiro" }
     ]
   },
   {
@@ -60,13 +60,13 @@ export const galleries = [
     title: "COZINHA FRIA",
     description: "Preparo de alimentos servidos em temperaturas baixas ou ambientes, como saladas, carpaccios, tartares, sanduíches e entradas frias.",
     images: [
-      { id: 1, src: fria1 },
-      { id: 2, src: fria2 },
-      { id: 3, src: fria3 },
-      { id: 4, src: fria4 },
-      { id: 5, src: fria5 },
-      { id: 6, src: fria6 },
-      { id: 7, src: fria7 }
+      { id: 1, src: fria1, alt: "Salada Refrescante com Toranja e Coulis de Maracujá" },
+      { id: 2, src: fria2, alt: "Evento Natura EKOS" },
+      { id: 3, src: fria3, alt: "Fun Food \"Urso sem Curso\"" },
+      { id: 4, src: fria4, alt: "Patê de Curry com Pérolas de Coentro" },
+      { id: 5, src: fria5, alt: "Evento BYD Coffee Break" },
+      { id: 6, src: fria6, alt: "Ceviche de Tilápia" },
+      { id: 7, src: fria7, alt: "Hommus" }
     ]
   },
   {
@@ -74,13 +74,13 @@ export const galleries = [
     title: "COZINHA QUENTE",
     description: "Preparo de alimentos que utilizam calor para sua cocção, servindo pratos como grelhados, assados, ensopados, massas e sopas.",
     images: [
-      { id: 1, src: quente1 },
-      { id: 2, src: quente2 },
-      { id: 3, src: quente3 },
-      { id: 4, src: quente4 },
-      { id: 5, src: quente5 },
-      { id: 6, src: quente6 },
-      { id: 7, src: quente7 }
+      { id: 1, src: quente1, alt: "Massa Fresca de Macarrão com Molho de Tomate Rústico" },
+      { id: 2, src: quente2, alt: "Frango Kiev com Manteiga Temperada e Chips de Mandioca e Batata" },
+      { id: 3, src: quente3, alt: "Entrevero de Pinhão" },
+      { id: 4, src: quente4, alt: "Arroz de Braga e Bolinho de Bacalhau" },
+      { id: 5, src: quente5, alt: "Picadinho com Couscous Marroquino e Legumes Salteados" },
+      { id: 6, src: quente6, alt: "Carne Seca com Farinha de Mandioca e Banana da Terra Frita" },
+      { id: 7, src: quente7, alt: "Picanha com Manteiga Temperada, Arroz e Farofa" }
     ]
   }
 ];

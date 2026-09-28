@@ -3,6 +3,7 @@ import "./ImageGallery.css";
 interface GalleryImages {
   id: number;
   src: string;
+  alt: string;
 }
 
 interface Gallery {
@@ -28,6 +29,7 @@ function ImageGallery({ gallery }: ImageGalleryProps) {
       <div className="gallery px-2">
         {gallery.images.map((image) => (
           <div className="gallery-item" key={image.id}>
+            <p className="fs-5">{image.alt}</p>
             <img src={image.src} />
           </div>
         ))}
