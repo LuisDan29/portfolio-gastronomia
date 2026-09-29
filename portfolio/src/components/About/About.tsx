@@ -8,7 +8,7 @@ import membro4 from "../../assets/images/membros/member_04.jpg";
 import membro5 from "../../assets/images/membros/member_05.jpg";
 
 function About() {
-  const [selectedMember, setSelectedMember] = useState(null);
+  const [selectedMember, setSelectedMember] = useState<string | null>(null);
 
   return (
     <section className="about-section px-0 px-md-5 py-5" id="about-section">
