@@ -22,7 +22,7 @@ function ImageGallery({ gallery }: ImageGalleryProps) {
   return (
     <section className="gallery-section px-0 px-md-5 py-5">
       <div className="row">
-        <div className="col-12 col-md-6 pt-0">
+        <div className="col-12 col-md-6 px-4 px-md-2 pt-md-0">
           <p className="gallery-title fs-3 text-primary">{gallery.title}</p>
           <p className="gallery-text fs-5 text-tertiary">{gallery.description}</p>
         </div>
