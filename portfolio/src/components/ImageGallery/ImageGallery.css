@@ -35,15 +35,36 @@
   background-color: white; 
   max-width: 85%;
   padding: 8px 13px;
-  border-radius: 0 0 8px 0;
   position: absolute;
   overflow-wrap: break-word;
   line-height: 120%;
-  transform: translateY(-100%);
   transition: transform 0.3s ease;
 }
 
-.gallery-item:hover p {
+.gallery-item-text {
+  border-radius: 0 0 8px 0;
+  transform: translateY(-100%);
+}
+
+.gallery-doc-link {
+  display: none;
+  border-radius: 8px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.gallery-doc-link span {
+  font-size: 1.2rem;
+  margin-right: 8px;
+  transform: translateY(20%);
+}
+
+.gallery-item:hover .gallery-doc-link {
+  display: block;
+}
+
+.gallery-item:hover .gallery-item-text {
   transform: translateY(0%);
 }
 

@@ -9,15 +9,15 @@ function Footer() {
           <p className="footer-title fs-4">Portfolio de Gastronomia</p>
           <p className="fs-5">Trabalho acadêmico apresentado à ETEC Professor Camargo Aranha • 3° Ano do Curso de Gastronomia.</p>
           <p className="fs-5">Orientadora: Prof. Denise Cussioli</p>
-          <p className="footer-detail fs-5"><i>Site criado por: <a href="https://www.instagram.com/luisodan_m" className="text-primary">@luisodan_m</a> e <a href="https://www.instagram.com/israellefraim" className="text-primary">@israellefraim</a></i></p>
+          <p className="footer-detail fs-5"><i>Site criado por: <a href="https://www.linkedin.com/in/luisdan-marinho" className="text-primary">Luís Dantas</a> e <a href="https://www.linkedin.com/in/israellefraim/" className="text-primary">Israel Efraim</a></i></p>
         </div>
         <div className="col-3 p-5 offset-1">
           <p className="footer-title fs-4">Integrantes</p>
-          <p className="footer-text fs-5"><span className="material-symbols-outlined">arrow_outward</span><a href="https://www.instagram.com/vianakj._" className="text-body">Manuela Muniz Viana</a></p>
-          <p className="footer-text fs-5"><span className="material-symbols-outlined">arrow_outward</span>Pietro Menezes Alves</p>
-          <p className="footer-text fs-5"><span className="material-symbols-outlined">arrow_outward</span>Yasmin Santana Jorge</p>
-          <p className="footer-text fs-5"><span className="material-symbols-outlined">arrow_outward</span>Larissa Teixeira</p>
-          <p className="footer-text fs-5"><span className="material-symbols-outlined">arrow_outward</span>Yasmin Oliveira de Jesus</p>
+          <p className="footer-text fs-5"><span className="material-symbols-outlined">arrow_outward</span><a href="https://www.instagram.com/gastromanu._" className="text-body">Manuela Muniz Viana</a></p>
+          <p className="footer-text fs-5"><span className="material-symbols-outlined">arrow_outward</span><a href="https://www.instagram.com/pietro_m.a._gastronomia" className="text-body">Pietro Menezes Alves</a></p>
+          <p className="footer-text fs-5"><span className="material-symbols-outlined">arrow_outward</span><a href="https://www.instagram.com/yas.gastronomia" className="text-body">Yasmin Santana Jorge</a></p>
+          <p className="footer-text fs-5"><span className="material-symbols-outlined">arrow_outward</span><a href="https://www.instagram.com/lariteixeira.gastro" className="text-body">Larissa Teixeira</a></p>
+          <p className="footer-text fs-5"><span className="material-symbols-outlined">arrow_outward</span><a href="https://www.instagram.com/yas.tecgastronomia" className="text-body">Yasmin Oliveira de Jesus</a></p>
         </div>
         <div className="col-3 p-5">
           <p className="footer-title fs-4">Seções</p>
