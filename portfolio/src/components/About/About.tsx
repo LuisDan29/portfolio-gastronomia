@@ -12,12 +12,12 @@ function About() {
 
   return (
     <section className="about-section px-0 px-md-5 py-5" id="about-section">
-      <div className="row">
+      <div className="row px-4 px-md-2">
         <div className="col-12 col-md-6 pt-0">
-          <p className="about-tile fs-1 text-primary">SOBRE</p>
+          <p className="about-title fs-1 text-primary">SOBRE</p>
         </div>
       </div>
-      <div className="row">
+      <div className="row px-4 px-md-2">
         <div className="col-12 col-md-5">
           {selectedMember == null ? (
               <p className="about-text fs-4">Somos estudantes do 3º ano do curso Técnico em Gastronomia Integrado ao Ensino Médio da ETEC Professor Camargo Aranha. 
@@ -32,7 +32,7 @@ function About() {
               <div className="about-member-image-container">
                 <img 
                   src={selectedMember}
-                  className="about-member-image"
+                  className="about-member-image mb-4 mb-md-0"
                   alt="Foto do Integrante">
                 </img>
               </div>
@@ -64,7 +64,7 @@ function About() {
               <span>+</span>              
             </li>
             <li onMouseEnter={() => setSelectedMember(membro5)}>
-              <span>5</span>
+              <span>05</span>
               <span>Pietro Menezes Alves</span>              
               <span>+</span>
             </li>            

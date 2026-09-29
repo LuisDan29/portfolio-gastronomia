@@ -15,15 +15,13 @@
     }
 }
 
-.about-tile {
+.about-title {
     font-family: 'FreeSansBold', sans-serif;
     font-weight: bold;
-    margin-left: 10px;
     margin-bottom: 10px;
 }
 
 .about-text {
-    margin-left: 10px;
     line-height: 120%;
     margin-bottom: 34px;
 }
