@@ -1,27 +1,27 @@
 @font-face {
-    font-family: 'catchy-mager';
-    src: url('../assets/fonts/Catchy Mager/catchy-mager.otf') format('opentype');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+  font-family: "catchy-mager";
+  src: url("../assets/fonts/Catchy Mager/catchy-mager.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 body {
-    font-family: "catchy-mager", sans-serif;
-    background-color: #FFEECC;
+  font-family: "catchy-mager", sans-serif;
+  background-color: #ffeecc;
 }
 
 .navbar {
-    background-color: #FFEECC !important;
+  background-color: #ffeecc !important;
 }
 
-:root, 
-[data-bs-theme="light"], 
+:root,
+[data-bs-theme="light"],
 [data-bs-theme="dark"] {
   --bs-font-sans-serif: "catchy-mager", sans-serif;
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-primary: #33250a !important;
   --bs-primary-rgb: 51, 37, 10 !important;
-  --bs-secondary: #665229 !important;
-  --bs-secondary-rgb: 102, 82, 41 !important;
+  --bs-secondary: #664e1c !important;
+  --bs-secondary-rgb: 102, 78, 28 !important;
 }

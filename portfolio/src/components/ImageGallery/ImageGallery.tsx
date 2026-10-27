@@ -24,20 +24,31 @@ function ImageGallery({ gallery }: ImageGalleryProps) {
       <div className="row">
         <div className="col-12 col-md-6 px-4 px-md-2 pt-md-0">
           <p className="gallery-title fs-3 text-primary">{gallery.title}</p>
-          <p className="gallery-text fs-5 text-tertiary">{gallery.description}</p>
+          <p className="gallery-text fs-5 text-secondary">
+            {gallery.description}
+          </p>
         </div>
       </div>
       <div className="gallery px-2">
         {gallery.images.map((image) => (
           <div className="gallery-item" key={image.id}>
             <p className="gallery-item-text fs-5 text-primary">{image.alt}</p>
-            {image.doc && <p className="gallery-doc-link fs-5"><a href={image.doc} className="text-body"><span className="material-symbols-outlined">arrow_outward</span>Ficha Técnica</a></p>}
+            {image.doc && (
+              <p className="gallery-doc-link fs-5">
+                <a href={image.doc} className="text-secondary">
+                  <span className="material-symbols-outlined">
+                    arrow_outward
+                  </span>
+                  Ficha Técnica
+                </a>
+              </p>
+            )}
             <img src={image.src} />
           </div>
         ))}
       </div>
     </section>
-  )
+  );
 }
 
 export default ImageGallery;
