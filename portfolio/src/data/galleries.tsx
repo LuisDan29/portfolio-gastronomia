@@ -47,7 +47,7 @@ export const galleries = [
   {
     id: 2,
     title: "CONFEITARIA",
-    description: "Produção de sobremesas e doces refinados, servinfo criações como torteletas, bolos, bombons, mousses petit fours, entre outros.",
+    description: "Produção de sobremesas e doces refinados, servindo criações como torteletas, bolos, bombons, mousses petit fours, entre outros.",
     images: [
       { id: 1, doc: "", src: confeitaria1, alt: "Churros com Doce de Leite e Chocolate" },
       { id: 2, doc: "", src: confeitaria2, alt: "Tiramisu com Brownie de Café" },
@@ -60,7 +60,7 @@ export const galleries = [
   {
     id: 3,
     title: "COZINHA FRIA",
-    description: "Preparo de alimentos servidos em temperaturas baixas (Garden Mange)  ou ambientes, como saladas carpaccios, tartares, sanduiches e entradas frias (consume e sopas frias)",
+    description: "Preparo de alimentos servidos em temperaturas baixas (Garden Mange) ou ambientes, como saladas carpaccios, tartares, sanduiches e entradas frias (consume e sopas frias)",
     images: [
       { id: 1, doc: "", src: fria1, alt: "Salada Refrescante com Toranja e Coulis de Maracujá" },
       { id: 2, doc: "", src: fria2, alt: "Evento Natura EKOS" },
@@ -74,7 +74,7 @@ export const galleries = [
   {
     id: 4,
     title: "COZINHA QUENTE",
-    description: "Preparo de alimentos que utilizam calor ( seco, umido ou misto) para sua cocção, proporcionam pratos como grelhados, assados, ensopados, massas e sopas.",
+    description: "Preparo de alimentos que utilizam calor (seco, umido ou misto) para sua cocção, proporcionam pratos como grelhados, assados, ensopados, massas e sopas.",
     images: [
       { id: 1, doc: "", src: quente1, alt: "Massa Fresca de Macarrão com Molho de Tomate Rústico" },
       { id: 2, doc: "", src: quente2, alt: "Frango Kiev com Manteiga Temperada e Chips de Mandioca e Batata" },

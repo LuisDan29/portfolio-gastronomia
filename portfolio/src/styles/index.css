@@ -20,8 +20,8 @@ body {
 [data-bs-theme="dark"] {
   --bs-font-sans-serif: "catchy-mager", sans-serif;
   --bs-body-font-family: var(--bs-font-sans-serif);
-  --bs-primary: black !important;
-  --bs-primary-rgb: 0, 0, 0 !important;
-  --bs-secondary: #d6d6d6 !important;
-  --bs-secondary-rgb: 214, 214, 214 !important;
+  --bs-primary: #33250a !important;
+  --bs-primary-rgb: 51, 37, 10 !important;
+  --bs-secondary: #665229 !important;
+  --bs-secondary-rgb: 102, 82, 41 !important;
 }

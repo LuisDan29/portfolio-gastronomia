@@ -30,7 +30,7 @@ function ImageGallery({ gallery }: ImageGalleryProps) {
       <div className="gallery px-2">
         {gallery.images.map((image) => (
           <div className="gallery-item" key={image.id}>
-            <p className="gallery-item-text fs-5">{image.alt}</p>
+            <p className="gallery-item-text fs-5 text-primary">{image.alt}</p>
             {image.doc && <p className="gallery-doc-link fs-5"><a href={image.doc} className="text-body"><span className="material-symbols-outlined">arrow_outward</span>Ficha Técnica</a></p>}
             <img src={image.src} />
           </div>
