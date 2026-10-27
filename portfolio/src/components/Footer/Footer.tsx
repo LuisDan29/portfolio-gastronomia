@@ -6,10 +6,10 @@ function Footer() {
     <section id="footer-section">
       <div className="row py-3">
         <div className="col-12 col-md-5 p-md-5 px-4 py-3">
-          <p className="footer-title fs-4">Portfolio de Gastronomia</p>
+          <p className="footer-title fs-4">Portfólio de Gastronomia 2026</p>
           <p className="fs-5">Trabalho acadêmico apresentado à ETEC Professor Camargo Aranha • 3° Ano do Curso de Gastronomia.</p>
           <p className="fs-5">Orientadora: Prof. Denise Cussioli</p>
-          <p className="footer-detail fs-5"><i>Site criado por: <a href="https://www.linkedin.com/in/luisdan-marinho" className="text-primary">Luís Dantas</a> e <a href="https://www.linkedin.com/in/israellefraim/" className="text-primary">Israel Efraim</a></i></p>
+          <p className="footer-detail fs-5"><i>Site criado por alunos do Curso Técnico Integrado ao Médio de Desenvolvimento de sistemas da ETEC Professor Camargo Aranha: <a href="https://www.linkedin.com/in/luisdan-marinho" className="text-primary">Luís Dantas</a> e <a href="https://www.linkedin.com/in/israellefraim/" className="text-primary">Israel Efraim</a></i></p>
         </div>
         <div className="col-12 col-md-3 offset-md-1 p-md-5 px-4 py-3">
           <p className="footer-title fs-4">Integrantes</p>
