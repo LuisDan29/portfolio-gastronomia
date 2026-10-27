@@ -1,12 +1,4 @@
-@font-face {
-    font-family: 'FreeSansBold';
-    src: url('src/assets/fonts/Free Sans Bold/FreeSansBold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
 .gallery-title {
-  font-family: 'FreeSansBold', sans-serif;
   font-weight: bold;
   margin-left: 10px;
   margin-bottom: 8px;

@@ -20,9 +20,9 @@ function About() {
       <div className="row">
         <div className="col-12 col-md-5">
           {selectedMember == null ? (
-              <p className="about-text fs-4">Somos estudantes do 3º ano do curso Técnico em Gastronomia Integrado ao Ensino Médio da ETEC Professor Camargo Aranha. 
+              <p className="about-text fs-4">Somos estudantes do 3°ano do curso tecnico em Gastronomia integrado ensino médio da ETEC Professor Camargo Aranha, Formandos 2026.
                 <br></br><br></br>
-                Este portfólio reúne parte da nossa trajetória ao longo do curso, apresentando experiências, técnicas e preparações desenvolvidas durante nossa formação. Entre ingredientes, receitas e diferentes formas de criar, encontramos na gastronomia um espaço para transformar conhecimento em expressão.
+                Este portfólio reúne parte da nossa trajetória ao longo do curso, apresentando experiências técnicas e preparações desenvolvidas durante nossa formação. Entre ingredientes, receitas e diferentes formas de criar, encontramos na gastronomia um espaço para transformar conhecimento em expressão.
                 <br></br><br></br>
                 Cada prato carrega um pouco daquilo que aprendemos, experimentamos e construímos juntos.
                 <br></br><br></br>
@@ -64,7 +64,7 @@ function About() {
               <span>+</span>              
             </li>
             <li onMouseEnter={() => setSelectedMember(membro5)}>
-              <span>5</span>
+              <span>05</span>
               <span>Pietro Menezes Alves</span>              
               <span>+</span>
             </li>            
